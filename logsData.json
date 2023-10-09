@@ -1,0 +1,113 @@
+[{
+  "lineNumber": "00000105",
+  "date": "2023-May-12",
+  "timeStamp": "15:56:47.503871",
+  "thread": "0x00000c8c",
+  "module": "slsim::service",
+  "type": ">",
+  "message": "class std::function<void __cdecl(unsigned __int64,class slsim::service::SignalInfo const *,class std::vector<double,class std::allocator<double> > &,class std::vector<char,class std::allocator<char> > &)> &__cdecl slsim::service::utils::SimCallbacks::getRootInputFcn(void)"
+},{
+  "lineNumber": "00000106",
+  "date": "2023-May-12",
+  "timeStamp": "15:56:47.503871",
+  "thread": "0x00000c8c",
+  "module": "slsim::service",
+  "type": "<",
+  "message": "class std::function<void __cdecl(unsigned __int64,class slsim::service::SignalInfo const *,class std::vector<double,class std::allocator<double> > &,class std::vector<char,class std::allocator<char> > &)> &__cdecl slsim::service::utils::SimCallbacks::getRootInputFcn(void)"
+},{
+  "lineNumber": "00000107",
+  "date": "2023-May-12",
+  "timeStamp": "15:56:47.528273",
+  "thread": "0x00000c8c",
+  "module": "slsim::service",
+  "type": "I",
+  "message": "locSanitizeChannelName: rNkHzD27Fok"
+},{
+  "lineNumber": "00000108",
+  "date": "2023-May-12",
+  "timeStamp": "15:56:47.529267",
+  "thread": "0x00000c8c",
+  "module": "slsim::service",
+  "type": ">",
+  "message": "__cdecl slsim::service::raccel::raProcessManager::raProcessManager(const class std::basic_string<char16_t,struct std::char_traits<char16_t>,class std::allocator<char16_t> > &,const class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > &,const class fl::filesystem::basic_path<wchar_t,char16_t,struct fl::filesystem::detail::path_traits<wchar_t,char16_t> > &,const class slsim::service::Options &)"
+},{
+  "lineNumber": "00000109",
+  "date": "2023-May-12",
+  "timeStamp": "15:56:47.529267",
+  "thread": "0x00000c8c",
+  "module": "slsim::service",
+  "type": "<",
+  "message": "__cdecl slsim::service::raccel::raProcessManager::raProcessManager(const class std::basic_string<char16_t,struct std::char_traits<char16_t>,class std::allocator<char16_t> > &,const class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > &,const class fl::filesystem::basic_path<wchar_t,char16_t,struct fl::filesystem::detail::path_traits<wchar_t,char16_t> > &,const class slsim::service::Options &)"
+},{
+  "lineNumber": "00000110",
+  "date": "2023-May-12",
+  "timeStamp": "15:56:47.581629",
+  "thread": "0x00000c8c",
+  "module": "slsim::foundation",
+  "type": ">",
+  "message": "class std::shared_ptr<class slsim::foundation::LiveOutputService> __cdecl slsim::foundation::LiveOutputService::createReader(class std::shared_ptr<class slsim::foundation::LiveService>,const class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > &,const class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > &,class std::function<void __cdecl(class mwboost::intrusive_ptr<struct mxArray_tag>,double,class mwboost::intrusive_ptr<struct mxArray_tag>)>)"
+},{
+  "lineNumber": "00000111",
+  "date": "2023-May-12",
+  "timeStamp": "15:56:47.581629",
+  "thread": "0x00000c8c",
+  "module": "slsim::foundation",
+  "type": ">",
+  "message": " __cdecl slsim::foundation::impl::LiveOutputServiceImpl::LiveOutputServiceImpl(class std::shared_ptr<class slsim::foundation::LiveService>,const class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > &,enum slsim::foundation::ChannelType,const class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > &)"
+},{
+  "lineNumber": "00000112",
+  "date": "2023-May-12",
+  "timeStamp": "15:56:47.581629",
+  "thread": "0x00000c8c",
+  "module": "slsim::foundation",
+  "type": "I",
+  "message": "   LiveOutputServiceImpl creating channel"
+},{
+  "lineNumber": "00000113",
+  "date": "2023-May-12",
+  "timeStamp": "15:56:47.581629",
+  "thread": "0x00000c8c",
+  "module": "live::common_plugin::LiveService",
+  "type": ">",
+  "message": "struct slsim::foundation::ChannelConnection __cdecl live::common_plugin::LiveCommonService::createChannel(enum slsim::foundation::ChannelType,const struct slsim::foundation::Locator &,const struct slsim::foundation::ChannelConfig &)"
+},{
+  "lineNumber": "00000114",
+  "date": "2023-May-12",
+  "timeStamp": "15:56:47.584630",
+  "thread": "0x00000c8c",
+  "module": "liveio::ShmSubscriber",
+  "type": "I",
+  "message": "creating shm subscriber domain: mTest_512 topic: rNkHzD27Fok_lo history size: 100 queue policy: 0"
+},{
+  "lineNumber": "00000115",
+  "date": "2023-May-12",
+  "timeStamp": "15:56:47.585630",
+  "thread": "0x00000c8c",
+  "module": "live::shared_memory::RawBuffer",
+  "type": ">",
+  "message": "void __cdecl live::shared_memory::RawBuffer::Create(unsigned __int64,unsigned __int64)"
+},{
+  "lineNumber": "00000116",
+  "date": "2023-May-12",
+  "timeStamp": "15:56:47.587629",
+  "thread": "0x00000c8c",
+  "module": "live::shared_memory::RawBuffer",
+  "type": "I",
+  "message": " Id: mTest_512/rNkHzD27Fok_lo/rx8808.0/, ShmAddress: uxritOs_mVd,  buffer size: 24576, free memory: 24424, result: Constructed"
+},{
+  "lineNumber": "00000117",
+  "date": "2023-May-12",
+  "timeStamp": "15:56:47.587629",
+  "thread": "0x00000c8c",
+  "module": "live::shared_memory::Allocation",
+  "type": ">",
+  "message": "bool __cdecl live::shared_memory::RawBuffer::AllocateShmImpl(void)"
+},{
+  "lineNumber": "00000118",
+  "date": "2023-May-12",
+  "timeStamp": "15:56:47.587629",
+  "thread": "0x00000c8c",
+  "module": "live::shared_memory::Allocation",
+  "type": "I",
+  "message": " Id: mTest_512/rNkHzD27Fok_lo/rx8808.0/, ShmAddress: uxritOs_mVd, free memory: 24424, allocating: 36"
+}]
